@@ -1,1 +1,181 @@
-# ImViD CVPR 2025 
+<div align="center">
+
+# ImViD: Immersive Volumetric Videos for Enhanced VR Engagement
+
+<!-- TODO: highlight -->
+
+[![paper](https://img.shields.io/badge/CVPR‑2025‑OpenAccess-brightgreen.svg)](https://openaccess.thecvf.com/content/CVPR2025/html/Yang_ImViD_Immersive_Volumetric_Videos_for_Enhanced_VR_Engagement_CVPR_2025_paper.html)
+[![arXiv](https://img.shields.io/badge/arXiv-2503.14359-orange.svg)](https://arxiv.org/abs/2503.14359)
+[![Project](https://img.shields.io/badge/Project-Page-blue.svg)](https://yzxqh.github.io/ImViD/)
+[![YouTube](https://img.shields.io/badge/YouTube-Video-red?logo=youtube)](https://www.youtube.com/watch?v=qRl8lEAIPGI)
+ 
+**[Tsinghua University]()**, **[Migu Beijing Research Institute]()**, **[Institute of Automation, Chinese Academy of Science]()**
+
+[Zhengxian Yang]()\*, [Shi Pan]()\* [Shengqi Wang]()* [Haoxiang Wang]() [Li Lin]() [Guanjun Li]() [Zhengqi Wen]()† [Borong Lin](https://www.arch.tsinghua.edu.cn/info/Building%20Science%20and%20Technology/1804)† [Jianhua Tao](https://www.au.tsinghua.edu.cn/info/1104/2986.htm)† [Tao Yu](https://ytrock.com/)†
+</div>
+
+---
+
+## Overview
+<p align="center">
+  <img src="assets/trailercollage2.jpg" alt="ImViD Teaser" width="90%" />
+</p>
+
+We introduce **ImViD**, a multi-view, multi-modal dataset featuring complete space-oriented data capture and various indoor/outdoor scenarios. The dataset includes high-resolution, synchronized audiovisual content captured at 5K resolution and 60 frames per second, with durations ranging from 1 to 5 minutes.
+
+## Download
+The dataset is available for download on [Google Drive]().
+
+<!-- TODO: Add dataset structure and download instructions after dataset release. -->
+
+## Dataset Summary
+
+| Scene      | Cameras | Static VPs | Takes | Strategy   | Avg. S-T Density (m³/s) | Viewing Space | Duration | Storage (GB) |
+| :--------- | :-------:| :---------: | :----: | :--------- | :-----------------------: | :-----------: | :-------: | :----------: |
+| Opera      | 39      | 1152      | 2     | 1–180°     | –                       | 180°          | 3:22     | 226         |
+| Laboratory | 39      | 1225      | 2     | 2          | 0.10                    | 360°          | 1:42     | 137.3       |
+| Classroom  | 39      | 1223      | 2     | 2          | 0.10                    | 360°          | 4:42     | 497         |
+| Meeting    | 39      | 1223      | 1     | 1–360°     | –                       | 360°          | 3:16     | 114         |
+| Rendition  | 39      | 1620      | 4     | 2          | 0.10                    | 360°          | 2:02     | 516         |
+| Puppy      | 39      | 1404      | 3     | 2          | 0.10                    | 360°          | 1:50     | 359         |
+| Playing    | 39      | 1224      | 2     | 2          | 0.10                    | 360°          | 1:10     | 220         |
+| **Total**  | –       | –         | 16    | –          | –                       | –             | 38:46    | 2069.3      |
+
+## Preview Clips
+
+Below are low-bitrate preview clips for each scene. Click “Download” to access the full-resolution dataset.
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <p><a href="">Download</a></p>
+      <video
+        src="assets/scene1.mp4"
+        controls
+        preload="metadata"
+        autoplay
+        muted
+        loop
+        width="200">
+        Your browser does not support the video tag.
+      </video><br/>
+      Scene 1: Opera
+    </td>
+    <td align="center">
+      <p><a href="">Download</a></p>
+      <video
+        src="assets/scene2.mp4"
+        controls
+        preload="metadata"
+        autoplay
+        muted
+        loop
+        width="200">
+        Your browser does not support the video tag.
+      </video><br/>
+      Scene 2: Laboratory
+    </td>
+    <td align="center">
+      <p><a href="">Download</a></p>
+      <video
+        src="assets/scene3.mp4"
+        controls
+        preload="metadata"
+        autoplay
+        muted
+        loop
+        width="200">
+        Your browser does not support the video tag.
+      </video><br/>
+      Scene 3: Classroom
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <p><a href="">Download</a></p>
+      <video
+        src="assets/scene4.mp4"
+        controls
+        preload="metadata"
+        autoplay
+        muted
+        loop
+        width="200">
+        Your browser does not support the video tag.
+      </video><br/>
+      Scene 4: Meeting
+    </td>
+    <td align="center">
+      <p><a href="">Download</a></p>
+      <video
+        src="assets/scene5.mp4"
+        controls
+        preload="metadata"
+        autoplay
+        muted
+        loop
+        width="200">
+        Your browser does not support the video tag.
+      </video><br/>
+      Scene 5: Rendition
+    </td>
+    <td align="center">
+      <p><a href="">Download</a></p>
+      <video
+        src="assets/scene6.mp4"
+        controls
+        preload="metadata"
+        autoplay
+        muted
+        loop
+        width="200">
+        Your browser does not support the video tag.
+      </video><br/>
+      Scene 6: Puppy
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="3">
+      <p><a href="">Download</a></p>
+      <video
+        src="assets/scene7.mp4"
+        controls
+        preload="metadata"
+        autoplay
+        muted
+        loop
+        width="200">
+        Your browser does not support the video tag.
+      </video><br/>
+      Scene 7: Playing
+    </td>
+  </tr>
+</table>
+
+## Moving Rig Captured Data
+
+We also provide the captured data with the moving rig. 
+
+This data poses significant challenges for existing calibration methods, often resulting in errors and floaters. But we believe that this data will greatly contribute to the advancement of the field, and thus we also publicly releasing the data. For more details, refer to our [paper](https://arxiv.org/abs/2503.14359).
+
+## TODO
+- [x] Release the sample dataset and download instructions.
+- [ ] Release the full dataset.
+- [ ] Release the calibration code for the moving rig captured data.
+
+> 🎉 Stay tuned for our upcoming work: an enhanced 4D Gaussian Splatting method for volumetric video.
+
+## Citation
+```bibtex
+@InProceedings{Yang_2025_CVPR,
+    author    = {Yang, Zhengxian and Pan, Shi and Wang, Shengqi and Wang, Haoxiang and Lin, Li and Li, Guanjun and Wen, Zhengqi and Lin, Borong and Tao, Jianhua and Yu, Tao},
+    title     = {ImViD: Immersive Volumetric Videos for Enhanced VR Engagement},
+    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
+    month     = {June},
+    year      = {2025},
+    pages     = {16554-16564}
+}
+```
+
+## License
+This project is licensed under the [CC BY-NC-SA 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/). You are free to share and adapt the material for non-commercial purposes, provided you give appropriate credit, indicate if changes were made, and distribute your contributions under the same license.
