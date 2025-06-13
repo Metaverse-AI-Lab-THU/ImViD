@@ -43,9 +43,11 @@
 We introduce **ImViD**, a multi-view, multi-modal dataset featuring complete space-oriented data capture and various indoor/outdoor scenarios. The dataset includes high-resolution, synchronized audiovisual content captured at 5K resolution and 60 frames per second, with durations ranging from 1 to 5 minutes.
 
 ## Download
-The full dataset is coming soon! You can download the sample data in our [Release Page](https://github.com/Metaverse-AI-Lab-THU/ImViD/releases).
+The full dataset is coming soon! You can currently download the sample data in our [Release Page](https://github.com/Metaverse-AI-Lab-THU/ImViD/releases/tag/v0.1).
 
-<!-- TODO: Add dataset structure and download instructions after dataset release. -->
+The sample dataset includes:
+- **Scene 1 videos** (300×5K@60 FPS, H.264 MP4)  
+- **cameras.json** — intrinsic & extrinsic parameters for all **39** synchronized video streams
 
 ## Dataset Summary
 
@@ -67,67 +69,88 @@ Below are low-bitrate preview clips for each scene. Click “Download” to acce
 <table align="center">
   <tr>
     <td align="center">
-      <p><a href="https://github.com/Metaverse-AI-Lab-THU/ImViD/releases">Download</a></p>
+      <p><a href="https://github.com/Metaverse-AI-Lab-THU/ImViD/releases/tag/v0.1">Download</a></p>
       <img
         src="assets/scene1.gif"
-        alt="Scene 1: Opera Preview"
-        style="max-width:30vw; height:auto;" /><br/>
+        alt="Scene 1: Opera Preview"/><br/>
       Scene 1: Opera
     </td>
+  <tr>
+  <tr>
     <td align="center">
       <p><a href="">Download</a></p>
       <img
         src="assets/scene2.gif"
-        alt="Scene 2: Laboratory Preview"
-        style="max-width:30vw; height:auto;" /><br/>
+        alt="Scene 2: Laboratory Preview"/><br/>
       Scene 2: Laboratory
     </td>
     <td align="center">
       <p><a href="">Download</a></p>
       <img
         src="assets/scene3.gif"
-        alt="Scene 3: Classroom Preview"
-        style="max-width:30vw; height:auto;" /><br/>
+        alt="Scene 3: Classroom Preview"/><br/>
       Scene 3: Classroom
+    </td>
+    <td align="center">
+      <p><a href="">Download</a></p>
+      <img
+        src="assets/scene4.gif"
+        alt="Scene 4: Meeting Preview"/><br/>
+      Scene 4: Meeting
     </td>
   </tr>
   <tr>
     <td align="center">
       <p><a href="">Download</a></p>
       <img
-        src="assets/scene4.gif"
-        alt="Scene 4: Meeting Preview"
-        style="max-width:30vw; height:auto;" /><br/>
-      Scene 4: Meeting
-    </td>
-    <td align="center">
-      <p><a href="">Download</a></p>
-      <img
         src="assets/scene5.gif"
-        alt="Scene 5: Rendition Preview"
-        style="max-width:30vw; height:auto;" /><br/>
+        alt="Scene 5: Rendition Preview"/><br/>
       Scene 5: Rendition
     </td>
     <td align="center">
       <p><a href="">Download</a></p>
       <img
         src="assets/scene6.gif"
-        alt="Scene 6: Puppy Preview"
-        style="max-width:30vw; height:auto;" /><br/>
+        alt="Scene 6: Puppy Preview"/><br/>
       Scene 6: Puppy
     </td>
-  </tr>
-  <tr>
     <td align="center" colspan="3">
       <p><a href="">Download</a></p>
       <img
         src="assets/scene7.gif"
-        alt="Scene 7: Playing Preview"
-        style="max-width:30vw; height:auto;" /><br/>
+        alt="Scene 7: Playing Preview"/><br/>
       Scene 7: Playing
     </td>
   </tr>
 </table>
+
+## Usage
+
+### Extracting Frames
+
+To extract individual frames from the sample video:
+```bash
+python scripts/extract_frames.py \
+    --input path/to/your_video_folder \
+    --output path/to/output_frames_folder \
+```
+
+### Camera Parameters
+
+The `cameras.json` file includes one entry per camera (39 total), each with:
+
+- **id**, **camera_name**, **width**, **height**  
+- **position** & **rotation**: world → camera transform
+- **fx**, **fy**: focal lengths in pixels (from FOV)  
+- **cx**, **cy**: principal point offsets in pixels  
+
+To project a 3D world point `Xw = [X,Y,Z]` into image `(u,v)`:
+
+```python
+Xc = rotation @ Xw + position    # camera‐frame coords
+u  = fx * (Xc[0]/Xc[2]) + cx      # pixel x
+v  = fy * (Xc[1]/Xc[2]) + cy      # pixel y
+```
 
 ## Moving Rig Captured Data
 
