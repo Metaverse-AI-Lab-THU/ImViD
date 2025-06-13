@@ -2,23 +2,22 @@
 
 # ImViD: Immersive Volumetric Videos for Enhanced VR Engagement
 
-<p align="center">
-  <span style="font-size:1.5em;">🌟 CVPR 2025 Highlight 🌟</span>
-</p>
+<h2 align="center">
+  🌟 CVPR 2025 Highlight 🌟
+</h2>
  
-<p align="center">
-  <span style="font-size:1.2em;">
-    <img src="assets/tsinghua.png" alt="Tsinghua" width="24" /> 
-    <strong><a href="https://www.tsinghua.edu.cn/">Tsinghua University</a></strong> &nbsp;&nbsp;
-    <br>
-    <img src="assets/migu.png" alt="Migu" width="24" /> 
-    <strong><a href="https://www.migu.cn/">Migu Beijing Research Institute</a></strong> &nbsp;&nbsp;
-    <img src="assets/casia.jpg" alt="CASIA" width="24" /> 
-    <strong><a href="http://www.ia.cas.cn/">IACAS</a></strong>
-  </span>
-</p>
+<h2 align="center">
+  <img src="assets/tsinghua.png" alt="Tsinghua" width="24" /> 
+  <strong><a href="https://www.tsinghua.edu.cn/">Tsinghua University</a></strong> &nbsp;&nbsp;
+  <br>
+  <img src="assets/migu.png" alt="Migu" width="24" /> 
+  <strong><a href="https://www.migu.cn/">Migu Beijing Research Institute</a></strong> &nbsp;&nbsp;
+  <img src="assets/casia.jpg" alt="CASIA" width="24" /> 
+  <strong><a href="http://www.ia.cas.cn/">IACAS</a></strong>
+</h2>
 
 [Zhengxian Yang]()\*,[Shi Pan]()\*, [Shengqi Wang]()*, [Haoxiang Wang](), [Li Lin](), [Guanjun Li](),
+
 [Zhengqi Wen]()†, [Borong Lin](https://www.arch.tsinghua.edu.cn/info/Building%20Science%20and%20Technology/1804)†, [Jianhua Tao](https://www.au.tsinghua.edu.cn/info/1104/2986.htm)†, [Tao Yu](https://ytrock.com/)†,
 
 <p align="center"><small>  
