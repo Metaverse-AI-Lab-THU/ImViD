@@ -75,8 +75,6 @@ Below are low-bitrate preview clips for each scene. Click “Download” to acce
         alt="Scene 1: Opera Preview"/><br/>
       Scene 1: Opera
     </td>
-  <tr>
-  <tr>
     <td align="center">
       <p><a href="">Download</a></p>
       <img
@@ -91,6 +89,8 @@ Below are low-bitrate preview clips for each scene. Click “Download” to acce
         alt="Scene 3: Classroom Preview"/><br/>
       Scene 3: Classroom
     </td>
+  <tr>
+  <tr>
     <td align="center">
       <p><a href="">Download</a></p>
       <img
@@ -98,8 +98,6 @@ Below are low-bitrate preview clips for each scene. Click “Download” to acce
         alt="Scene 4: Meeting Preview"/><br/>
       Scene 4: Meeting
     </td>
-  </tr>
-  <tr>
     <td align="center">
       <p><a href="">Download</a></p>
       <img
@@ -114,6 +112,8 @@ Below are low-bitrate preview clips for each scene. Click “Download” to acce
         alt="Scene 6: Puppy Preview"/><br/>
       Scene 6: Puppy
     </td>
+  </tr>
+  <tr>
     <td align="center" colspan="3">
       <p><a href="">Download</a></p>
       <img
