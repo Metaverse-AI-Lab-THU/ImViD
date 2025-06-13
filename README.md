@@ -2,16 +2,35 @@
 
 # ImViD: Immersive Volumetric Videos for Enhanced VR Engagement
 
-<!-- TODO: highlight -->
+<p align="center">
+  <span style="font-size:1.5em;">🌟 CVPR 2025 Highlight 🌟</span>
+</p>
+ 
+<p align="center">
+  <span style="font-size:1.2em;">
+    <img src="assets/tsinghua.png" alt="Tsinghua" width="24" /> 
+    <strong><a href="https://www.tsinghua.edu.cn/">Tsinghua University</a></strong> &nbsp;&nbsp;
+    <br>
+    <img src="assets/migu.png" alt="Migu" width="24" /> 
+    <strong><a href="https://www.migu.cn/">Migu Beijing Research Institute</a></strong> &nbsp;&nbsp;
+    <img src="assets/casia.jpg" alt="CASIA" width="24" /> 
+    <strong><a href="http://www.ia.cas.cn/">IACAS</a></strong>
+  </span>
+</p>
+
+[Zhengxian Yang]()\*,[Shi Pan]()\*, [Shengqi Wang]()*, [Haoxiang Wang](), [Li Lin](), [Guanjun Li](),
+[Zhengqi Wen]()†, [Borong Lin](https://www.arch.tsinghua.edu.cn/info/Building%20Science%20and%20Technology/1804)†, [Jianhua Tao](https://www.au.tsinghua.edu.cn/info/1104/2986.htm)†, [Tao Yu](https://ytrock.com/)†,
+
+<p align="center"><small>  
+* Equal Contribution,  
+† Corresponding Authors  
+</small></p>
 
 [![paper](https://img.shields.io/badge/CVPR‑2025‑OpenAccess-brightgreen.svg)](https://openaccess.thecvf.com/content/CVPR2025/html/Yang_ImViD_Immersive_Volumetric_Videos_for_Enhanced_VR_Engagement_CVPR_2025_paper.html)
 [![arXiv](https://img.shields.io/badge/arXiv-2503.14359-orange.svg)](https://arxiv.org/abs/2503.14359)
 [![Project](https://img.shields.io/badge/Project-Page-blue.svg)](https://yzxqh.github.io/ImViD/)
 [![YouTube](https://img.shields.io/badge/YouTube-Video-red?logo=youtube)](https://www.youtube.com/watch?v=qRl8lEAIPGI)
- 
-**[Tsinghua University]()**, **[Migu Beijing Research Institute]()**, **[Institute of Automation, Chinese Academy of Science]()**
 
-[Zhengxian Yang]()\*, [Shi Pan]()\* [Shengqi Wang]()* [Haoxiang Wang]() [Li Lin]() [Guanjun Li]() [Zhengqi Wen]()† [Borong Lin](https://www.arch.tsinghua.edu.cn/info/Building%20Science%20and%20Technology/1804)† [Jianhua Tao](https://www.au.tsinghua.edu.cn/info/1104/2986.htm)† [Tao Yu](https://ytrock.com/)†
 </div>
 
 ---
@@ -24,15 +43,15 @@
 We introduce **ImViD**, a multi-view, multi-modal dataset featuring complete space-oriented data capture and various indoor/outdoor scenarios. The dataset includes high-resolution, synchronized audiovisual content captured at 5K resolution and 60 frames per second, with durations ranging from 1 to 5 minutes.
 
 ## Download
-The dataset is available for download on [Google Drive]().
+The full dataset is coming soon! You can download the sample data in our [Release Page](https://github.com/Metaverse-AI-Lab-THU/ImViD/releases).
 
 <!-- TODO: Add dataset structure and download instructions after dataset release. -->
 
 ## Dataset Summary
 
 | Scene      | Cameras | Static VPs | Takes | Strategy   | Avg. S-T Density (m³/s) | Viewing Space | Duration | Storage (GB) |
-| :--------- | :-------:| :---------: | :----: | :--------- | :-----------------------: | :-----------: | :-------: | :----------: |
-| Opera      | 39      | 1152      | 2     | 1–180°     | –                       | 180°          | 3:22     | 226         |
+| :--------- | :-------:| :---------: | :----: | :---------: | :-----------------------: | :-----------: | :-------: | :----------: |
+| Opera     | 39      | 1152      | 2     | 1–180°     | –                       | 180°          | 3:22     | 226         |
 | Laboratory | 39      | 1225      | 2     | 2          | 0.10                    | 360°          | 1:42     | 137.3       |
 | Classroom  | 39      | 1223      | 2     | 2          | 0.10                    | 360°          | 4:42     | 497         |
 | Meeting    | 39      | 1223      | 1     | 1–360°     | –                       | 360°          | 3:16     | 114         |
@@ -48,105 +67,63 @@ Below are low-bitrate preview clips for each scene. Click “Download” to acce
 <table align="center">
   <tr>
     <td align="center">
-      <p><a href="">Download</a></p>
-      <video
-        src="assets/scene1.mp4"
-        controls
-        preload="metadata"
-        autoplay
-        muted
-        loop
-        width="200">
-        Your browser does not support the video tag.
-      </video><br/>
+      <p><a href="https://github.com/Metaverse-AI-Lab-THU/ImViD/releases">Download</a></p>
+      <img
+        src="assets/scene1.gif"
+        alt="Scene 1: Opera Preview"
+        style="max-width:30vw; height:auto;" /><br/>
       Scene 1: Opera
     </td>
     <td align="center">
       <p><a href="">Download</a></p>
-      <video
-        src="assets/scene2.mp4"
-        controls
-        preload="metadata"
-        autoplay
-        muted
-        loop
-        width="200">
-        Your browser does not support the video tag.
-      </video><br/>
+      <img
+        src="assets/scene2.gif"
+        alt="Scene 2: Laboratory Preview"
+        style="max-width:30vw; height:auto;" /><br/>
       Scene 2: Laboratory
     </td>
     <td align="center">
       <p><a href="">Download</a></p>
-      <video
-        src="assets/scene3.mp4"
-        controls
-        preload="metadata"
-        autoplay
-        muted
-        loop
-        width="200">
-        Your browser does not support the video tag.
-      </video><br/>
+      <img
+        src="assets/scene3.gif"
+        alt="Scene 3: Classroom Preview"
+        style="max-width:30vw; height:auto;" /><br/>
       Scene 3: Classroom
     </td>
   </tr>
   <tr>
     <td align="center">
       <p><a href="">Download</a></p>
-      <video
-        src="assets/scene4.mp4"
-        controls
-        preload="metadata"
-        autoplay
-        muted
-        loop
-        width="200">
-        Your browser does not support the video tag.
-      </video><br/>
+      <img
+        src="assets/scene4.gif"
+        alt="Scene 4: Meeting Preview"
+        style="max-width:30vw; height:auto;" /><br/>
       Scene 4: Meeting
     </td>
     <td align="center">
       <p><a href="">Download</a></p>
-      <video
-        src="assets/scene5.mp4"
-        controls
-        preload="metadata"
-        autoplay
-        muted
-        loop
-        width="200">
-        Your browser does not support the video tag.
-      </video><br/>
+      <img
+        src="assets/scene5.gif"
+        alt="Scene 5: Rendition Preview"
+        style="max-width:30vw; height:auto;" /><br/>
       Scene 5: Rendition
     </td>
     <td align="center">
       <p><a href="">Download</a></p>
-      <video
-        src="assets/scene6.mp4"
-        controls
-        preload="metadata"
-        autoplay
-        muted
-        loop
-        width="200">
-        Your browser does not support the video tag.
-      </video><br/>
+      <img
+        src="assets/scene6.gif"
+        alt="Scene 6: Puppy Preview"
+        style="max-width:30vw; height:auto;" /><br/>
       Scene 6: Puppy
     </td>
   </tr>
   <tr>
     <td align="center" colspan="3">
       <p><a href="">Download</a></p>
-      <video
-        src="assets/scene7.mp4"
-        controls
-        preload="metadata"
-        autoplay
-        muted
-        loop
-        width="200">
-        Your browser does not support the video tag.
-      </video><br/>
+      <img
+        src="assets/scene7.gif"
+        alt="Scene 7: Playing Preview"
+        style="max-width:30vw; height:auto;" /><br/>
       Scene 7: Playing
     </td>
   </tr>
@@ -154,7 +131,7 @@ Below are low-bitrate preview clips for each scene. Click “Download” to acce
 
 ## Moving Rig Captured Data
 
-We also provide the captured data with the moving rig. 
+We also provide the captured data with the moving rig, which can be downloaded from our [Release Page]()
 
 This data poses significant challenges for existing calibration methods, often resulting in errors and floaters. But we believe that this data will greatly contribute to the advancement of the field, and thus we also publicly releasing the data. For more details, refer to our [paper](https://arxiv.org/abs/2503.14359).
 
@@ -178,4 +155,4 @@ This data poses significant challenges for existing calibration methods, often r
 ```
 
 ## License
-This project is licensed under the [CC BY-NC-SA 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/). You are free to share and adapt the material for non-commercial purposes, provided you give appropriate credit, indicate if changes were made, and distribute your contributions under the same license.
+This project is licensed under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. You are free to share and adapt the material, provided you give appropriate credit, indicate if changes were made, and do not apply legal terms or technological measures that restrict others from using the material.
