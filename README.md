@@ -53,7 +53,7 @@
 We introduce **ImViD**, a multi-view, multi-modal dataset featuring complete space-oriented data capture and various indoor/outdoor scenarios. The dataset includes high-resolution, synchronized audiovisual content captured at 5K resolution and 60 frames per second, with durations ranging from 1 to 5 minutes.
 
 ## Download
-The full dataset is coming soon! You can currently download the sample data in our [Release Page](https://github.com/Metaverse-AI-Lab-THU/ImViD/releases/tag/v0.1).
+The full dataset is coming soon! You can currently download the sample data in our [Release Page](https://github.com/Metaverse-AI-Lab-THU/ImViD/releases/tag/v0.2).
 
 The sample dataset includes:
 - **Scene 1 videos** (300×5K@60 FPS, H.264 MP4)  
@@ -79,7 +79,7 @@ Below are low-bitrate preview clips for each scene. Click “Download” to acce
 <table align="center">
   <tr>
     <td align="center">
-      <p><a href="https://github.com/Metaverse-AI-Lab-THU/ImViD/releases/tag/v0.1">Download</a></p>
+      <p><a href="https://github.com/Metaverse-AI-Lab-THU/ImViD/releases/tag/v0.2">Download</a></p>
       <img
         src="assets/scene1.gif"
         alt="Scene 1: Opera Preview"/><br/>
@@ -134,7 +134,7 @@ Below are low-bitrate preview clips for each scene. Click “Download” to acce
   </tr>
 </table>
 
-## Usage
+## Sample Release Usage
 
 ### Extracting Frames
 
@@ -147,20 +147,9 @@ python scripts/extract_frames.py \
 
 ### Camera Parameters
 
-The `cameras.json` file includes one entry per camera (39 total), each with:
+The `cameras.txt` and `images.txt` follow COLMAP’s native format. You can feed them directly into COLMAP and run `point_triangulator` tool to obtain an SfM point cloud.
 
-- **id**, **camera_name**, **width**, **height**  
-- **position** & **rotation**: world → camera transform
-- **fx**, **fy**: focal lengths in pixels (from FOV)  
-- **cx**, **cy**: principal point offsets in pixels  
-
-To project a 3D world point `Xw = [X,Y,Z]` into image `(u,v)`:
-
-```python
-Xc = rotation @ Xw + position    # camera‐frame coords
-u  = fx * (Xc[0]/Xc[2]) + cx      # pixel x
-v  = fy * (Xc[1]/Xc[2]) + cy      # pixel y
-```
+> **Note:** Make sure the frame filenames exactly match the image names listed in `images.txt`. You can either update `images.txt` or rename the extracted images to correspond to the entries in `images.txt`.
 
 ## Moving Rig Captured Data
 
