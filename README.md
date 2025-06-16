@@ -31,6 +31,17 @@
 [![Project](https://img.shields.io/badge/Project-Page-blue.svg)](https://yzxqh.github.io/ImViD/)
 [![YouTube](https://img.shields.io/badge/YouTube-Video-red?logo=youtube)](https://www.youtube.com/watch?v=qRl8lEAIPGI)
 
+<p align="center">
+  <a href="https://www.qbitai.com/2025/06/293352.html">
+    <img src="https://img.shields.io/badge/量子位-深度解读-orange?style=flat-square" alt="量子位"/>
+  </a>
+  <a href="https://mp.weixin.qq.com/s/Pq-4varyObluQDlO2wdZdg">
+    <img src="https://img.shields.io/badge/VR陀螺-微信公众号-green?logo=wechat&style=flat-square" alt="VR陀螺"/>
+  </a>
+  <a href="https://mp.weixin.qq.com/s/h37fSyYOfsucUrt1bIytHA">
+    <img src="https://img.shields.io/badge/3D视觉之心-微信公众号-blue?logo=wechat&style=flat-square" alt="3D视觉之心"/>
+  </a>
+</p>
 </div>
 
 ---
