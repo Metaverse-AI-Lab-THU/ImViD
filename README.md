@@ -153,9 +153,7 @@ The `cameras.txt` and `images.txt` follow COLMAP’s native format. You can feed
 
 ## Moving Rig Captured Data
 
-We also provide the captured data with the moving rig, which can be downloaded from our [Release Page]()
-
-This data poses significant challenges for existing calibration methods, often resulting in errors and floaters. But we believe that this data will greatly contribute to the advancement of the field, and thus we also publicly releasing the data. For more details, refer to our [paper](https://arxiv.org/abs/2503.14359).
+We also provide the captured data with the moving rig. This data poses significant challenges for existing calibration methods, often resulting in errors and floaters. But we believe that this data will greatly contribute to the advancement of the field, and thus we also publicly releasing the data. For more details, refer to our [paper](https://arxiv.org/abs/2503.14359).
 
 ## TODO
 - [x] Release the sample dataset and download instructions.
