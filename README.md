@@ -53,11 +53,14 @@
 We introduce **ImViD**, a multi-view, multi-modal dataset featuring complete space-oriented data capture and various indoor/outdoor scenarios. The dataset includes high-resolution, synchronized audiovisual content captured at 5K resolution and 60 frames per second, with durations ranging from 1 to 5 minutes.
 
 ## Download
-The full dataset is coming soon! You can currently download the sample data in our [Release Page](https://github.com/Metaverse-AI-Lab-THU/ImViD/releases/tag/v0.2).
+The full dataset has been released. To obtain access:
 
-The sample dataset includes:
-- **Scene 1 videos** (300×5K@60 FPS, H.264 MP4)  
-- **cameras.json** — intrinsic & extrinsic parameters for all **39** synchronized video streams
+1. Download and fill the application forms: 
+   - Fillable PDF: [docs/application_form.pdf](docs/application_form.pdf)
+2. Email the completed form to the contacts listed in the Contact section below.
+3. Upon approval, we will send you the download instructions.
+
+For a quick look, a small sample dataset is available on the [Release Page](https://github.com/Metaverse-AI-Lab-THU/ImViD/releases/tag/v0.2). The sample includes Scene 1 videos (300×5K@60 FPS, H.264 MP4) and COLMAP-style camera metadata files: `cameras.txt` and `images.txt`.
 
 ## Dataset Summary
 
@@ -74,26 +77,23 @@ The sample dataset includes:
 
 ## Preview Clips
 
-Below are low-bitrate preview clips for each scene. Click “Download” to access the full-resolution dataset.
+Below are low-bitrate preview clips for each scene.
 
 <table align="center">
   <tr>
     <td align="center">
-      <p><a href="https://github.com/Metaverse-AI-Lab-THU/ImViD/releases/tag/v0.2">Download</a></p>
       <img
         src="assets/scene1.gif"
         alt="Scene 1: Opera Preview"/><br/>
       Scene 1: Opera
     </td>
     <td align="center">
-      <p><a href="">Download</a></p>
       <img
         src="assets/scene2.gif"
         alt="Scene 2: Laboratory Preview"/><br/>
       Scene 2: Laboratory
     </td>
     <td align="center">
-      <p><a href="">Download</a></p>
       <img
         src="assets/scene3.gif"
         alt="Scene 3: Classroom Preview"/><br/>
@@ -102,21 +102,18 @@ Below are low-bitrate preview clips for each scene. Click “Download” to acce
   <tr>
   <tr>
     <td align="center">
-      <p><a href="">Download</a></p>
       <img
         src="assets/scene4.gif"
         alt="Scene 4: Meeting Preview"/><br/>
       Scene 4: Meeting
     </td>
     <td align="center">
-      <p><a href="">Download</a></p>
       <img
         src="assets/scene5.gif"
         alt="Scene 5: Rendition Preview"/><br/>
       Scene 5: Rendition
     </td>
     <td align="center">
-      <p><a href="">Download</a></p>
       <img
         src="assets/scene6.gif"
         alt="Scene 6: Puppy Preview"/><br/>
@@ -125,7 +122,6 @@ Below are low-bitrate preview clips for each scene. Click “Download” to acce
   </tr>
   <tr>
     <td align="center" colspan="3">
-      <p><a href="">Download</a></p>
       <img
         src="assets/scene7.gif"
         alt="Scene 7: Playing Preview"/><br/>
@@ -134,7 +130,7 @@ Below are low-bitrate preview clips for each scene. Click “Download” to acce
   </tr>
 </table>
 
-## Sample Release Usage
+## Using the Dataset
 
 ### Extracting Frames
 
@@ -157,7 +153,7 @@ We also provide the captured data with the moving rig. This data poses significa
 
 ## TODO
 - [x] Release the sample dataset and download instructions.
-- [ ] Release the full dataset.
+- [x] Release the full dataset.
 - [ ] Release the calibration code for the moving rig captured data.
 
 > 🎉 Stay tuned for our upcoming work: an enhanced 4D Gaussian Splatting method for volumetric video.
