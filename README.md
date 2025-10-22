@@ -141,6 +141,8 @@ python scripts/extract_frames.py \
     --output path/to/output_frames_folder \
 ```
 
+**Note:** Video alignment accuracy is approximately 10–20 ms. If you need higher precision, please contact us.
+
 ### Camera Parameters
 
 The `cameras.txt` and `images.txt` follow COLMAP’s native format. You can feed them directly into COLMAP and run `point_triangulator` tool to obtain an SfM point cloud.
