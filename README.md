@@ -27,6 +27,13 @@
 
 [![paper](https://img.shields.io/badge/CVPR‑2025‑OpenAccess-brightgreen.svg)](https://openaccess.thecvf.com/content/CVPR2025/html/Yang_ImViD_Immersive_Volumetric_Videos_for_Enhanced_VR_Engagement_CVPR_2025_paper.html)
 [![arXiv](https://img.shields.io/badge/arXiv-2503.14359-orange.svg)](https://arxiv.org/abs/2503.14359)
+  ## 🚨 NEWS 🚨
+
+  > ## 🌟 Major Update
+  > **We propose a stronger Gaussian-based dynamic light field reconstruction method and release our latest immersive volumetric [video demo](https://www.bilibili.com/video/BV1iqDXBvEJ6).**
+  >
+  > **Check the IVV [page](https://sheng-qi.github.io/IVV/) for details. Code and results will be continuously updated. Stay tuned!**
+
 [![Project](https://img.shields.io/badge/Project-Page-blue.svg)](https://yzxqh.github.io/ImViD/)
 [![YouTube](https://img.shields.io/badge/YouTube-Video-red?logo=youtube)](https://www.youtube.com/watch?v=qRl8lEAIPGI)
 
@@ -53,7 +60,6 @@
 We introduce **ImViD**, a multi-view, multi-modal dataset featuring complete space-oriented data capture and various indoor/outdoor scenarios. The dataset includes high-resolution, synchronized audiovisual content captured at 5K resolution and 60 frames per second, with durations ranging from 1 to 5 minutes.
 
 ## Download
-The full dataset has been released. To obtain access:
 
 1. Download and fill the application forms: 
    - Fillable PDF: [docs/application_form.pdf](docs/application_form.pdf)
