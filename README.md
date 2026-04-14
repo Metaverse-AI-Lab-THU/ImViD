@@ -5,6 +5,19 @@
 <h2 align="center">
   🌟 CVPR 2025 Highlight 🌟
 </h2>
+
+## 🚨 NEWS 🚨
+
+> ### 🔥 IVV Major Update
+> **Realizing Immersive Volumetric Video: A Multimodal Framework for 6-DoF VR Engagement (IVV)**
+>
+> **New paper and immersive demo are now available.**
+>
+> **Code will be released after the paper submission is completed. Stay tuned!**
+> 
+> [![Project](https://img.shields.io/badge/Project-Page-blue.svg)](https://sheng-qi.github.io/IVV/)
+> [![arXiv](https://img.shields.io/badge/arXiv-2604.09473-orange.svg)](https://arxiv.org/abs/2604.09473)
+> [![Bilibili](https://img.shields.io/badge/Bilibili-Video-ff69b4.svg)](https://www.bilibili.com/video/BV1iqDXBvEJ6/)
  
 <h2 align="center">
   <img src="assets/tsinghua.png" alt="Tsinghua" width="24" /> 
@@ -27,13 +40,6 @@
 
 [![paper](https://img.shields.io/badge/CVPR‑2025‑OpenAccess-brightgreen.svg)](https://openaccess.thecvf.com/content/CVPR2025/html/Yang_ImViD_Immersive_Volumetric_Videos_for_Enhanced_VR_Engagement_CVPR_2025_paper.html)
 [![arXiv](https://img.shields.io/badge/arXiv-2503.14359-orange.svg)](https://arxiv.org/abs/2503.14359)
-  ## 🚨 NEWS 🚨
-
-  > ## 🌟 Major Update
-  > **We propose a stronger Gaussian-based dynamic light field reconstruction method and release our latest immersive volumetric [video demo](https://www.bilibili.com/video/BV1iqDXBvEJ6).**
-  >
-  > **Check the IVV [page](https://sheng-qi.github.io/IVV/) for details. Code and results will be continuously updated. Stay tuned!**
-
 [![Project](https://img.shields.io/badge/Project-Page-blue.svg)](https://yzxqh.github.io/ImViD/)
 [![YouTube](https://img.shields.io/badge/YouTube-Video-red?logo=youtube)](https://www.youtube.com/watch?v=qRl8lEAIPGI)
 
@@ -162,9 +168,7 @@ We also provide the captured data with the moving rig. This data poses significa
 ## TODO
 - [x] Release the sample dataset and download instructions.
 - [x] Release the full dataset.
-- [ ] Release the calibration code for the moving rig captured data.
-
-> 🎉 Stay tuned for our upcoming work: an enhanced 4D Gaussian Splatting method for volumetric video.
+- [ ] Open-source the code after the paper submission is completed.
 
 ## Citation
 ```bibtex
@@ -175,6 +179,16 @@ We also provide the captured data with the moving rig. This data poses significa
     month     = {June},
     year      = {2025},
     pages     = {16554-16564}
+}
+
+@misc{yang2026realizingimmersivevolumetricvideo,
+      title={Realizing Immersive Volumetric Video: A Multimodal Framework for 6-DoF VR Engagement}, 
+      author={Zhengxian Yang and Shengqi Wang and Shi Pan and Hongshuai Li and Haoxiang Wang and Lin Li and Guanjun Li and Zhengqi Wen and Borong Lin and Jianhua Tao and Tao Yu},
+      year={2026},
+      eprint={2604.09473},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2604.09473}, 
 }
 ```
 
